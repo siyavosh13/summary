@@ -1,0 +1,11 @@
+# requirements.txt
+
+fastapi==0.95.1
+uvicorn[standard]==0.22.0
+transformers==4.33.0
+torch>=2.0.0
+sentencepiece==0.1.99
+numpy==1.25.0
+pydantic==2.6.0
+python-multipart==0.0.6   # اگر بخوای فایل یا دادهٔ multipart بگیری
+aiohttp==3.9.8             # برای درخواست‌های async / اگر بخوای
